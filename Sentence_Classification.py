@@ -1,7 +1,7 @@
     # Import module was created
 import module as tx
     # Read data from CSV - đọc data từ file csv
-df = tx.readcsv("texttrain.csv")
+df = tx.readcsv("data_train.csv")
 df.rename(columns={0:'feature',1:'label'},inplace=True)
 
     # create corpus - tạo bộ văn bản
